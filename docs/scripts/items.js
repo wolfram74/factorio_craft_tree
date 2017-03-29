@@ -23,4 +23,37 @@ const items = {
     readable:'Copper Cable',
     ingredients:['copperPlate']
   },
+  stackInserter:{
+    readable:'Stack Inserter',
+    ingredients:['fastInserter', 'ironGearWheel', 'electronicCircuit', 'advancedCircuit']
+  },
+  fastInserter:{
+    readable:'Fast Inserter',
+    ingredients:['inserter', 'ironPlate', 'electronicCircuit']
+  },
+  advancedCircuit:{
+    readable:'Advanced Circuit',
+    ingredients:['electronicCircuit', 'copperCable', 'plastic']
+  },
+  filterInserter:{
+    readable:'Filter Inserter',
+    ingredients:['fastInserter', 'electronicCircuit']
+  },
+  steelPlate:{
+    readable:'Steel Plate',
+    ingredients:['ironPlate']
+  },
+  battery:{
+    readable:'Battery',
+    ingredients:['copperPlate', 'ironPlate', 'sulfuricAcid']
+  },
+  sulfuricAcid:{
+    readable:'Sulfuric Acid',
+    ingredients:['ironPlate', 'sulfur', 'water']
+  },
+  sulfur:{
+    readable:'Sulfur',
+    ingredients:['petroleumGas', 'water']
+  },
+
 }
